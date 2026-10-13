@@ -27,13 +27,13 @@ The Gateway uses hardware analog switches to control whether stick inputs are ro
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│                      Control Layout                         │
+│                      Control Layout                     │
 ├─────────────────┬───────────────────────────────────────────┤
-│     NC Mode     │ Controller Sticks ──► Drone (Normal)      │
-│                 │ CM4 Core          ──► Monitoring Only     │
+│     NC Mode    │ Controller Sticks ──► Drone (Normal)  │
+│                │ CM4 Core          ──► Monitoring Only │
 ├─────────────────┼───────────────────────────────────────────┤
-│     NO Mode     │ Remote / Edge AI  ──► CM4 ──► Drone       │
-│                 │ Controller Sticks ──► Overridden          │
+│     NO Mode    │ Remote / Edge AI  ──► CM4 ──► Drone   │
+│                │ Controller Sticks ──► Overridden      │
 └─────────────────┴───────────────────────────────────────────┘
 ```
 

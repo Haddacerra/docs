@@ -5,7 +5,7 @@ The **Haddacerra Gateway** is a hardware platform engineered to interface Raspbe
 ## System Architecture
 
 ### 1. Compute & Interposer Stack
-* **Carrier Board:** Houses the CM4 core, power delivery network, and an integrated 2000mAh battery for independent operation.
+* **Carrier Board:** Houses the CM4, power delivery network, and an integrated 2000mAh battery for independent operation.
 * **Networking:** Utilizes a dedicated external Wi-Fi module, explicitly bypassing the CM4's default Broadcom chipset to ensure superior network stability and range and usage of 20mhz band
 * **Daughtercard (Interposer):** A Pi-Zero sized PCB that acts as the hardware bridge, tapping the DJI controller's telemetry and routing it to the CM4.
 
@@ -15,6 +15,6 @@ The **Haddacerra Gateway** is a hardware platform engineered to interface Raspbe
 * **Hardware:** Houses the physical action switches, power buttons, and a 2.42" OLED status display. 
 * **Optional SMA Antenna Expansion:** The enclosure includes ports to support external panel antennas.
 
-### 3. Controller & Device Relocation
+### 3. Controller & Smartphone
 * **Host Compatibility:** Fully assembled onto a DJI RC-N1, RC-N2, or RC-N3 chassis.
 * **Magnetic Device Mount:** Because the Gateway enclosure occupies the factory phone clamp, the operator's smartphone or tablet is relocated to a pre-installed magnetic mount on the controller.

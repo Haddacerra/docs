@@ -15,7 +15,7 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.tracking
-    - content.code.copy
+    - toc.integrate
 
 markdown_extensions:
   - admonition
@@ -26,6 +26,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - tables
+  - toc:
+      toc_depth: 0 # Disables generating sub-headings in the TOC tree
 
 nav:
   - Gateway Overview: index.md
