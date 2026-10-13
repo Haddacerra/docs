@@ -13,8 +13,9 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.instant
+    - navigation.tracking
     - content.code.copy
-    - content.action.edit
 
 markdown_extensions:
   - admonition
@@ -27,7 +28,11 @@ markdown_extensions:
   - tables
 
 nav:
-  - Welcome: index.md
-  - Getting Started:
-      - Enclosure Assembly: getting-started/enclosure.md
-      - Hardware Setup: getting-started/installation.md
+  - Gateway Overview: index.md
+  - Operations Guide:
+      - How-to & Power: operations/how-to.md
+      - Network & WebRTC: operations/network.md
+      - Video Pipeline: operations/video.md
+  - Hardware:
+      - Specifications: hardware/specs.md
+      - 3D Enclosure Files: hardware/enclosure.md
