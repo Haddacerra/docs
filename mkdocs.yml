@@ -30,7 +30,7 @@ markdown_extensions:
 nav:
   - Gateway Overview: index.md
   - Operations Guide:
-      - How-to & Power: operations/how-to.md
+      - How To Start: operations/how-to.md
       - Network & WebRTC: operations/network.md
       - Video Pipeline: operations/video.md
   - Hardware:
