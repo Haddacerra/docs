@@ -2,11 +2,11 @@
 
 The Haddacerra Gateway is designed to be straightforward and easy to set up, working seamlessly with everything from casual consumer setups like the DJI Mini 2 and Mini 3 to top of line Mavic 4 and other advanced ground control systems. However, we made sure simplicity never comes at the expense of reliability! safety is our absolute top priority. The system integrates hardware-level protection and fail-safe mechanisms directly onto the daughter card and carrier board to safeguard your equipment and the gateway under any operational condition.
 
+The custom carrier board and daughter card architecture integrate protection logics designed to handle electrical stress and crashes while keeping the operator in full control:
+
 ---
 
 ## 1. ESD & Power Protection
-
-The custom carrier board and daughter card architecture integrate protection logics designed to handle electrical stress and crashes without breaking the shared-ground reference required for precise analog control:
 
 * **Channel-Wide TVS Diodes:** Every signal, control line and switch is equipped with Transient Voltage Suppression (TVS) diodes, instantly clamping ESD and inductive surges safely to ground.
 
