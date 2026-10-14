@@ -5,6 +5,8 @@ site_description: Official technical documentation and hardware setup guides for
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
     scheme: slate
     primary: black
@@ -33,8 +35,10 @@ nav:
   - Gateway Overview: index.md
   - Operations Guide:
       - How To Start: operations/how-to.md
-      - Network & WebRTC: operations/network.md
-      - Video Pipeline: operations/video.md
+      - Control Panel UI: operations/cpui.md
+      - Video Streaming: operations/video.md
+      - OLED Status Display: operations/oled.md
   - Hardware:
       - Specifications: hardware/specs.md
-      - 3D Enclosure Files: hardware/enclosure.md
+      - Enclosure: hardware/enclosure.md
+

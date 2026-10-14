@@ -8,7 +8,7 @@
 
 
 1. **Power On the Gateway:**
-   Locate the main toggle switch on the side of the Gateway enclosure. Flip it to the **ON** position. 
+   Locate the main toggle switch on the left side of the Gateway enclosure. Flip it to the **ON** position. 
 
 
 2. **Power On the DJI Controller:**
@@ -36,7 +36,7 @@ The Gateway uses hardware switches to control whether stick inputs are routed lo
 ```
 
 ### 1. NC Mode (Normally Connected / Local Control)
-By default, the system operates in **NC Mode**
+By default, the system operates in **NC Mode:**
 
 * The physical controller sticks are wired normally.
 
@@ -50,9 +50,11 @@ To hand off control to an automated script, AI loop, or remote operator:
 
 1. Instruct the remote user to log in to the control UI at **[app.haddacerra.com](https://app.haddacerra.com)** and establish UDP connection.
 
-2. Toggle the state switch to **NO Mode**.
+2. Locate the state control switch on the left side of the Gateway enclosure
 
-3. The interposer will engage the CM4 control lines, allowing the CM4 to send flight commands.
+3. Toggle the state switch to **NO Mode**.
+
+4. The interposer will engage the CM4 control lines, allowing the CM4 to send flight commands.
 
 ## Reverting to Manual Control
 
