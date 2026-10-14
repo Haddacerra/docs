@@ -13,7 +13,6 @@
 
 2. **Power On the DJI Controller:**
    Press and hold the power button on the DJI controller (RC-N1, RC-N2, or RC-N3) as normal.
-
          2.42" OLED display will illuminate, showing the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
 
