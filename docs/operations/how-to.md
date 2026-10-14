@@ -7,17 +7,17 @@
 **Important: You must power on the Gateway first before turning on the DJI controller. The interposer and CM4 must initialize their bus lines and voltage references prior to the host controller booting up.**
 
 
-1. **Power On the Gateway**
+1. **Power On the Gateway:**
    Locate the main toggle switch on the side of the Gateway enclosure. Flip it to the **ON** position. 
 
 
-2. **Power On the DJI Controller**
+2. **Power On the DJI Controller:**
    Press and hold the power button on the DJI controller (RC-N1, RC-N2, or RC-N3) as normal.
 
-   * 2.42" OLED display will illuminate, showing the system boot sequence, internal 2000mAh battery voltage, and local network status.
+   2.42" OLED display will illuminate, showing the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
 
-3. Attach Mobile Device
+3. **Attach Mobile Device:**
    Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect your host video cable.
 
 ## Control Modes (NC & NO)
