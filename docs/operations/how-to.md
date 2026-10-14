@@ -11,13 +11,29 @@
 1. **Power On the Gateway:**
    Locate the main toggle switch on the left side of the Gateway enclosure. Flip it to the **ON** position. 
 
+2. **Connect to WIFI network:**
+   To connect to the CM4 remotely the gateway must connect to a wifi network.
 
-2. **Power On the DJI Controller:**
+   When the gateway is turned on it will attempt to connect to its last known working WIFI network.
+
+   In case the gateway cannot find or cannot connect to its last known network it will automatically go into wifi-setup mode.
+
+  **Setup network:**
+
+  The gateway will open a new wifi network with a name like "Haddacera_setupx201"
+
+  Connect into this network and you will be directed to a small setup page, the gateway scanned your wifi networks and will list them to you, either select your network from the list or type it manually, and enter your wifi password, click submit.
+
+  The device will now save your wifi ssid/pass and connect to your wifi network and you will notice the setup network disappear, you can verify connectivity on the OLED display and in the UI control panel.
+  In case the wifi connection failed the setup network will remain active, until a successful connection is made.
+  
+
+3. **Power On the DJI Controller:**
    Press and hold the power button on the DJI controller (RC-N1, RC-N2, or RC-N3) as normal.
          2.42" OLED display will illuminate, showing the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
 
-3. **Attach Mobile Device:**
+4. **Attach Mobile Device:**
    Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect your host video cable.
 
 ## Control Modes (NC & NO)
