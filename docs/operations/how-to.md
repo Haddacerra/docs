@@ -2,6 +2,7 @@
 
 ---
 
+
 ## Startup Sequence
 
 **Important: You must power on the Gateway first before turning on the DJI controller. The interposer and CM4 must initialize their bus lines and voltage references prior to the host controller booting up.**
@@ -63,3 +64,15 @@ To instantly restore manual pilot control at any time:
 * Flip the state switch back to **NC Mode**.
 
 * RC regains full manual control.
+
+## Battery and Charging 
+
+An internal 2000mah battrey is included and will run the gateway for around 3-4 hours of usage on its own.
+
+To charge, connect a USB-C cable from any charger to the port on the right side of the enclosure.
+
+It is possible to use gateway during charging, this way the battery is only being charged and the gateway can run from a wall charger or a larger external battery.
+
+Charging takes about 20-30 minutes.
+
+Make sure to always monitor the battery health on the main status display.
