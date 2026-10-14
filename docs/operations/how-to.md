@@ -2,7 +2,7 @@
 
 ---
 
-**## Startup Sequence**
+## Startup Sequence
 
 **Important: You must power on the Gateway first before turning on the DJI controller. The interposer and CM4 must initialize their bus lines and voltage references prior to the host controller booting up.**
 
@@ -19,7 +19,7 @@
 3. **Attach Mobile Device:**
    Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect your host video cable.
 
-**## Control Modes (NC & NO)**
+## Control Modes (NC & NO)
 
 The Gateway uses hardware switches to control whether stick inputs are routed locally or driven by the onboard CM4 compute core.
 
@@ -36,7 +36,8 @@ The Gateway uses hardware switches to control whether stick inputs are routed lo
 ```
 
 ### 1. NC Mode (Normally Connected / Local Control)
-By default, the system operates in **NC Mode.**
+By default, the system operates in **NC Mode**
+
 * The physical controller sticks are wired normally.
 
 * The operator retains full manual flight authority as normal.
