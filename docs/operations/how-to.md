@@ -21,7 +21,7 @@
 
 ## Control Modes (NC & NO)
 
-The Gateway uses hardware analog switches to control whether stick inputs are routed locally or driven by the onboard CM4 compute core.
+The Gateway uses hardware switches to control whether stick inputs are routed locally or driven by the onboard CM4 compute core.
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -35,8 +35,8 @@ The Gateway uses hardware analog switches to control whether stick inputs are ro
 └─────────────────┴───────────────────────────────────────────┘
 ```
 
-### 1. NC Mode (Normally Closed / Local Control)
-By default, the system operates in **NC Mode**.
+### 1. NC Mode (Normally Connected / Local Control)
+By default, the system operates in **NC Mode.**
 * The physical controller sticks are wired normally.
 
 * The operator retains full manual flight authority as normal.
@@ -56,5 +56,7 @@ To hand off control to an automated script, AI loop, or remote operator:
 ## Reverting to Manual Control
 
 To instantly restore manual pilot control at any time:
+
 * Flip the state switch back to **NC Mode**.
+
 * RC regains full manual control.
