@@ -13,12 +13,10 @@
 
 2. **Connect to WIFI network:**
    To connect to the CM4 remotely the gateway must connect to a wifi network.
-
    When the gateway is turned on it will attempt to connect to its last known working WIFI network.
-
    In case the gateway cannot find or cannot connect to its last known network it will automatically go into wifi-setup mode.
 
-  **Setup network:**
+  ---Network Setup--
 
   The gateway will open a new wifi network with a name like "Haddacera_setupx201"
 
