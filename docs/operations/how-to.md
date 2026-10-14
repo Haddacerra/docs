@@ -3,36 +3,35 @@
 ---
 
 
-## Startup Sequence
+## Startup Guide
 
 **Important: You must power on the Gateway first before turning on the DJI controller. The interposer and CM4 must initialize their bus lines and voltage references prior to the host controller booting up.**
 
+Follow these steps to power on, configure network connectivity, and initialize your Haddacerra Gateway system in the field.
 
-1. **Power On the Gateway:**
-   Locate the main toggle switch on the left side of the Gateway enclosure. Flip it to the **ON** position. 
+---
 
-2. **Connect to WIFI network:**
-   To connect to the CM4 remotely the gateway must connect to a wifi network.
-   When the gateway is turned on it will attempt to connect to its last known working WIFI network.
-   In case the gateway cannot find or cannot connect to its last known network it will automatically go into wifi-setup mode.
+## 1. Power On the Gateway
+Locate the main toggle switch on the left side of the Gateway enclosure and flip it to the **ON** position.
 
-  ---Network Setup--
+## 2. Connect to WiFi Network
+To connect to the CM4 remotely, the gateway requires an active WiFi connection:
+* **Automatic Reconnection:** Upon boot, the gateway attempts to connect to its last known working WiFi network.
+* **Setup Mode Fallback:** If the gateway cannot locate or connect to its previous network, it automatically enters setup mode.
 
-  The gateway will open a new wifi network with a name like "Haddacera_setupx201"
+### Network Setup Procedure
+1. The gateway broadcasts an open setup network named similar to `Haddacera_setupx201`.
+2. Connect your phone or computer to this network to automatically open the portal.
+3. Select your local network from the scanned list (or enter the SSID manually), input your WiFi password, and click **Submit**.
+4. The device saves the credentials and connects to your network, causing the setup network to disappear. 
+5. Verify connectivity on the OLED display and the web control panel. If connection fails, the setup network remains active until a successful link is established.
 
-  Connect into this network and you will be directed to a small setup page, the gateway scanned your wifi networks and will list them to you, either select your network from the list or type it manually, and enter your wifi password, click submit.
+## 3. Power On the DJI Controller
+Press and hold the power button on your DJI controller (RC-N1, RC-N2, or RC-N3) as normal. The 2.42" OLED display will illuminate to show the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
-  The device will now save your wifi ssid/pass and connect to your wifi network and you will notice the setup network disappear, you can verify connectivity on the OLED display and in the UI control panel.
-  In case the wifi connection failed the setup network will remain active, until a successful connection is made.
-  
+## 4. Attach Mobile Device
+Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect inlucded usb-c cable.
 
-3. **Power On the DJI Controller:**
-   Press and hold the power button on the DJI controller (RC-N1, RC-N2, or RC-N3) as normal.
-         2.42" OLED display will illuminate, showing the system boot sequence, internal 2000mAh battery voltage, and local network status.
-
-
-4. **Attach Mobile Device:**
-   Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect your host video cable.
 
 ## Control Modes (NC & NO)
 
