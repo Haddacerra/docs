@@ -12,9 +12,10 @@ The **Haddacerra Gateway** is a hardware platform engineered to interface Raspbe
 ### 2. Enclosure & Display
 * **Dimensions:** 85mm x 150mm x 24mm.
 * **Mounting Integration:** The enclosure locks directly into the controller's original retractable phone-mounting arm. 
-* **Hardware:** Houses the physical action switches, power buttons, and a 2.42" OLED status display. 
+* **Enclosure:** Houses the physical switches, power button, battery, and a 2.42" OLED status display. 
 * **Optional SMA Antenna Expansion:** The enclosure includes ports to support external panel antennas.
 
 ### 3. Controller & Smartphone
 * **Host Compatibility:** Fully assembled onto a DJI RC-N1, RC-N2, or RC-N3 chassis.
 * **Magnetic Device Mount:** Because the Gateway enclosure occupies the factory phone clamp, the operator's smartphone or tablet is relocated to a pre-installed magnetic mount on the controller.
+* **Wifi Antenna:** Uses a compact, high quality stub antenna positioned horizontally on the back of the DJI RC. Keeping it perpendicular to the main vertical drone antennas helps prevent signal interference and maintains a clean wireless connection without disrupting the drone to RC link.
