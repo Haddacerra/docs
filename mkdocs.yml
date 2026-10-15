@@ -36,9 +36,10 @@ nav:
   - Operations Guide:
       - How To Start: operations/how-to.md
       - Control Panel UI: operations/cpui.md
-      - Features: operations/features.md
       - OLED Status Display: operations/oled.md
       - Video Streaming: operations/video.md
+      - Features: operations/features.md
+
   - Hardware:
       - Specifications: hardware/specs.md
       - Enclosure: hardware/enclosure.md
