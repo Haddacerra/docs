@@ -16,7 +16,9 @@ Locate the main toggle switch on the left side of the Gateway enclosure and flip
 
 ## 2. Connect to WiFi Network
 To connect to the CM4 remotely, the gateway requires an active WiFi connection:
+
 * **Automatic Reconnection:** Upon boot, the gateway attempts to connect to its last known working WiFi network.
+
 * **Setup Mode Fallback:** If the gateway cannot locate or connect to its previous network, it automatically enters setup mode.
 
 ### Network Setup Procedure
@@ -86,6 +88,6 @@ To charge, connect a USB-C cable from any charger to the port on the right side 
 
 It is possible to use gateway during charging, this way the battery is only being charged and the gateway can run from a wall charger or a larger external battery.
 
-Charging takes about 20-30 minutes.
+Charging takes about 30-40 minutes.
 
 Make sure to always monitor the battery health on the main status display.
