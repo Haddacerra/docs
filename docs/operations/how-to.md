@@ -30,7 +30,7 @@ To connect to the CM4 remotely, the gateway requires an active WiFi connection:
 Press and hold the power button on your DJI controller (RC-N1, RC-N2, or RC-N3) as normal. The 2.42" OLED display will illuminate to show the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
 ## 4. Attach Mobile Device
-Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect inlucded usb-c cable.
+Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect included usb-c cable.
 
 
 ## Control Modes (NC & NO)
@@ -80,7 +80,7 @@ To instantly restore manual pilot control at any time:
 
 ## Battery and Charging 
 
-An internal 2000mah battrey is included and will run the gateway for around 3-4 hours of usage on its own.
+An internal 2000mah battery is included and will run the gateway for around 3-4 hours of usage on its own.
 
 To charge, connect a USB-C cable from any charger to the port on the right side of the enclosure.
 

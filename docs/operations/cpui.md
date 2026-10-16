@@ -22,9 +22,9 @@ The top header provides real-time telemetry health and latancy:
 
 ### Stage 1: USB HID Axis Mapping Wizard
 
-* **Function:** Calibates and normalizes the connected USB handheld controller inputs across 5 primary channels (AETR + Gimbal Tilt).
+* **Function:** Calibrates and normalizes the connected USB handheld controller inputs across 5 primary channels (AETR + Gimbal Tilt).
 
-* **Operation:** Maps stick movments with real-time UI visualizers to verify axis orientation and deadzones.
+* **Operation:** Maps stick movements with real-time UI visualizers to verify axis orientation and deadzones.
 
 ### Stage 2: Hardware DAC Voltage Matching
 
@@ -43,6 +43,8 @@ Provides real-time feedback read from the interposer's 12 ADC channels:
 * **Driven Channels (NO):** Monitors voltage levels across the DAC output lines.
 
 * **Physical Switch State:** Live indication of the state control switch(NC or NO).
+
+* **Power Rail:** 12th Channel dedicated to monitor health of the main 5V power rail.
 
 ---
 

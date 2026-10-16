@@ -1,6 +1,6 @@
 # Hardware Safety & Fail-Safe Protection Systems
 
-The Haddacerra Gateway is designed to be straightforward and easy to set up, and to work seamlessly with everything from casual consumer setups like the DJI Mini 2 and Mini 3 to top of line Mavic 4 and other advanced ground control systems. However, we made sure simplicity never comes at the expense of reliability! safety is our absolute top priority. The system integrates hardware-level protection and fail-safe mechanisms directly onto the daughter card and carrier board to safeguard your equipment and the gateway under any operational condition.
+The Haddacerra Gateway is designed to be straightforward and easy to set up, and to work seamlessly with everything from casual consumer setups like the DJI Mini 2 and Mini 3 up tp Mavic 3 Pro and other advanced ground control systems. However, we made sure simplicity never comes at the expense of reliability! safety is our absolute top priority. The system integrates hardware-level protection and fail-safe mechanisms directly onto the daughter card and carrier board to safeguard your equipment and the gateway under any operational condition.
 
 The custom carrier board and daughter card architecture integrate protection logics designed to handle electrical stress and crashes while keeping the operator in full control:
 
@@ -22,7 +22,7 @@ To prevent a catastrophic loss during **NO mode** operation: upon a crash, or so
 
 * **Continuous Heartbeat Monitoring:** The hardware watchdog continuously checks the operational state of the CM4.
 
-* **Automatic NO-to-NC Emergency Latching:** If the watchdog trips or detects a freeze while the system is operating in **NO MODE** the hardware instantly bypasses the manual toggle and software control. It automatically and permanently latches the circuit back to **NC (Passthrough Mode)**, returning absolute physical control to the human operator's manual controls with zero latency.
+* **Automatic NO-to-NC Emergency Latching:** If the watchdog trips or detects a freeze while the system is operating in **NO MODE** the hardware instantly bypasses the manual toggle and software control. It automatically and permanently latches the circuit back to **NC (Passthrough Mode)**, returning absolute physical control to the human operator's manual controls.
 
 * **Alarm:** Once the watchdog trips and latches the gateway to NC mode an alarm will sound a long beep notifying the operator the CM4 has crashed, to stop the alarm return the manual toggle to NC mode, land safely and restart the gateway.
 
