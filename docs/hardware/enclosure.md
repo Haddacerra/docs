@@ -8,7 +8,7 @@ The Haddacerra Gateway enclosure is engineered for mechanical durability, compon
 
 * **Dimensions:** 150 mm × 85 mm × 24 mm
 
-* **Form Factor:** Compact low-profile box designed for portability and clean design looks.
+* **Form Factor:** Compact low-profile box designed for portability and ease of use.
 
 ---
 
@@ -20,7 +20,7 @@ The Haddacerra Gateway enclosure is engineered for mechanical durability, compon
 
 * **Post-Processing:** Surface-dyed finish for wear resistance and aesthetics.
 
-## 3. DOWNLOAD OUR DESIGN !
+## 3. Download Our Design Here:
 
 At [Printables](https://www.printables.com/model/1875117-haddacerra-gateway-cm4-enclosure-for-rc-n1-rc-n3)
 

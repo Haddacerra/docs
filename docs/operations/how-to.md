@@ -32,7 +32,7 @@ To connect to the CM4 remotely, the gateway requires an active WiFi connection:
 Press and hold the power button on your DJI controller (RC-N1, RC-N2, or RC-N3) as normal. The 2.42" OLED display will illuminate to show the system boot sequence, internal 2000mAh battery voltage, and local network status.
 
 ## 4. Attach Mobile Device
-Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect included usb-c cable.
+Place your smartphone or tablet onto the pre-installed magnetic mount on the controller and connect included USB-C cable.
 
 
 ## Control Modes (NC & NO)
@@ -51,7 +51,7 @@ The Gateway uses hardware switches to control whether stick inputs are routed lo
 └─────────────────┴───────────────────────────────────────────┘
 ```
 
-### 1. NC Mode (Normally Connected / Local Control)
+### 1. NC Mode (Manual Passthrough)
 By default, the system operates in **NC Mode:**
 
 * The physical controller sticks are wired normally.
@@ -61,7 +61,7 @@ By default, the system operates in **NC Mode:**
 * The Gateway acts strictly as a telemetry display.
 
 
-### 2. NO Mode (Normally Open / Remote Control)
+### 2. NO Mode (CM4 / Remote Control)
 To hand off control to an automated script, AI loop, or remote operator:
 
 1. Instruct the remote user to log in to the control UI at **[app.haddacerra.com](https://app.haddacerra.com)** and establish UDP connection.

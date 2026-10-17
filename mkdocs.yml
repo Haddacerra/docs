@@ -37,6 +37,7 @@ nav:
       - How To Start: operations/how-to.md
       - Control Panel UI: operations/cpui.md
       - OLED Status Display: operations/oled.md
+      - NAT Traversal and Signalling: operations/nat.md
       - Video Streaming: operations/video.md
       - Features: operations/features.md
 

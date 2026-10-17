@@ -2,11 +2,11 @@
 
 The Haddacerra Control Portal (`app.haddacerra.com`) serves as the client-side interface for managing P2P UDP telemetry, calibration, and monitoring voltage and hardware values.
 
-It is **HIGHLY RECOMMANDED TO USE A PC/Laptop** as support for external controllers on mobile(Android/iOs) is very tricky and is NOT fully supported.
+It is **HIGHLY RECOMMENDED TO USE A PC/Laptop** as support for external controllers on mobile(Android/iOs) is very tricky and is NOT fully supported.
 
 ---
 
-## 1. Connection & Latancy
+## 1. Connection & Latency
 
 The top header provides real-time telemetry health and latancy:
 
