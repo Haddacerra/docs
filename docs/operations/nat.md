@@ -1,4 +1,3 @@
-##  Network Bridge & NAT Traversal
 The Haddacerra network bridge architecture is engineered to provide a ultra-low-latency, highly secure, and reliable communication link between the ground control web interface and the mobile hardware gateway (Compute Module 4) running on the vehicle.
 
 Because remote operations frequently take place over cellular networks and carrier-grade NAT (CGNAT), traditional direct IP routing is impossible. To solve this, the bridge combines WebSocket signaling, Interactive Connectivity Establishment (ICE), STUN/TURN traversal protocols, and end-to-end transport layer security.
