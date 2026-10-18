@@ -1,4 +1,4 @@
-# Features & Utilities
+# Extra Features & Utilities
 
 This page describes additional capabilities available through the Haddacerra Gateway Control Panel during active operations.
 

@@ -39,7 +39,7 @@ nav:
       - OLED Status Display: operations/oled.md
       - NAT Traversal & Network Bridge: operations/nat.md
       - Video Streaming: operations/video.md
-      - Features: operations/features.md
+      - Extra Features: operations/features.md
 
   - Hardware:
       - Specifications: hardware/specs.md
