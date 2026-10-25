@@ -74,4 +74,4 @@ After session establishment, operational control commands, feedback, and telemet
 
 **Stream Control Transmission Protocol (SCTP):** SCTP operates over DTLS and provides DataChannel message transport. The control channel is configured for unordered delivery with retransmissions disabled, favouring timely control updates over guaranteed delivery of every individual message.
 
-This configuration avoids waiting for ordered delivery or retransmission of lost control messages. However, messages may still be delayed or lost, and the configuration does not eliminate network congestion or guarantee a fixed end-to-end latency. Actual responsiveness depends on network conditions, endpoint processing, and the behaviour of the complete control and feedback path.
+This configuration avoids waiting for ordered delivery or retransmission of lost control messages. However, messages may still be delayed or lost, and the configuration does not eliminate network congestion or guarantee a fixed end-to-end latency. Actual responsiveness depends on network conditions.
