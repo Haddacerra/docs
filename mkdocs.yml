@@ -43,6 +43,7 @@ nav:
 
   - Hardware:
       - Specifications: hardware/specs.md
+      - Compatibility: hardware/compatibility.md
       - Enclosure: hardware/enclosure.md
       - Safety: hardware/safety.md
 
