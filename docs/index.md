@@ -7,7 +7,7 @@ The **Haddacerra Gateway** is a hardware platform engineered to interface Raspbe
 ### 1. Compute & Interposer Stack
 * **Carrier Board:** Houses the CM4, power delivery network, and an integrated 2000mAh battery for independent operation.
 * **Networking:** Utilizes a dedicated external Wi-Fi module, explicitly bypassing the CM4's default Broadcom chipset to ensure superior network stability and range and usage of 20 MHz band
-* **Daughtercard (Interposer):** A Pi-Zero sized PCB that acts as the hardware bridge, tapping the DJI controller's telemetry and routing it to the CM4.
+* **Daughtercard (Interposer):** A Pi-Zero sized PCB that acts as the hardware bridge and interfaces with the controller's control signals. Its ADC channels measure control voltages and hardware status, while its DAC channels provide the outputs used for remote control. The CM4 receives these measurements for monitoring and reporting.
 
 ### 2. Enclosure & Display
 * **Dimensions:** 150mm x 85mm x 24mm.
