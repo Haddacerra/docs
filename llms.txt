@@ -1,0 +1,8 @@
+# Haddacerra Gateway Documentation
+> Hardware interposer and P2P UDP telemetry gateway for consumer drone radio protocols.
+
+- [Safety & Fail-Safe Systems](https://docs.haddacerra.com/hardware/safety/)
+- [Quick Start Guide](https://docs.haddacerra.com/operations/how-to/)
+- [Control Panel UI](https://docs.haddacerra.com/operations/cpui/)
+- [OLED Display Reference](https://docs.haddacerra.com/operations/oled/)
+- [Technical Specifications](https://docs.haddacerra.com/hardware/specs/)

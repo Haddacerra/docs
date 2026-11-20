@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">H drone technology emblem</title>
+  <desc id="desc">A metallic H surrounded by cyan telemetry arcs and four rotor nodes.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#d7dbe0"/>
+      <stop offset="1" stop-color="#9da3aa"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#e1e5e9"/>
+      <stop offset="1" stop-color="#b4bac1"/>
+    </linearGradient>
+    <radialGradient id="hub" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#f4f6f8"/>
+      <stop offset="0.55" stop-color="#c9ced4"/>
+      <stop offset="1" stop-color="#8b929a"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00e8ff"/>
+      <stop offset="1" stop-color="#16a8ff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Telemetry ring: segmented, deliberately open at four cardinal points -->
+  <g fill="none" stroke="url(#cyan)" stroke-width="18" stroke-linecap="square" filter="url(#softGlow)">
+    <path d="M 325 223 A 286 286 0 0 1 472 172"/>
+    <path d="M 528 172 A 286 286 0 0 1 675 223"/>
+    <path d="M 777 325 A 286 286 0 0 1 828 472"/>
+    <path d="M 828 528 A 286 286 0 0 1 777 675"/>
+    <path d="M 675 777 A 286 286 0 0 1 528 828"/>
+    <path d="M 472 828 A 286 286 0 0 1 325 777"/>
+    <path d="M 223 675 A 286 286 0 0 1 172 528"/>
+    <path d="M 172 472 A 286 286 0 0 1 223 325"/>
+  </g>
+
+  <!-- Small telemetry ticks -->
+  <g fill="url(#cyan)">
+    <path d="M492 156h16v47h-16z"/>
+    <path d="M492 797h16v47h-16z"/>
+    <path d="M156 492h47v16h-47z"/>
+    <path d="M797 492h47v16h-47z"/>
+  </g>
+
+  <!-- Main H -->
+  <g fill="url(#silver)">
+    <path d="M333 273 L392 273 L392 414 L432 454 L568 454 L608 414 L608 273 L667 273 L667 719 L608 719 L608 579 L568 539 L432 539 L392 579 L392 719 L333 719 Z"/>
+  </g>
+
+  <!-- H side cyan rails -->
+  <g fill="url(#cyan)" filter="url(#softGlow)">
+    <path d="M303 330 L318 315 L318 681 L303 666 Z"/>
+    <path d="M697 330 L682 315 L682 681 L697 666 Z"/>
+  </g>
+
+  <!-- Four rotor nodes -->
+  <g>
+    <!-- top-left -->
+    <g transform="translate(255 255)">
+      <circle r="55" fill="#111" stroke="url(#cyan)" stroke-width="16"/>
+      <circle r="36" fill="#0a0a0a" stroke="#252a2f" stroke-width="7"/>
+      <circle r="22" fill="url(#hub)"/>
+      <path d="M-28 -28 L-126 -126 L-165 -153 L-146 -111 L-48 -13 Z" fill="url(#blade)"/>
+    </g>
+    <!-- top-right -->
+    <g transform="translate(745 255)">
+      <circle r="55" fill="#111" stroke="url(#cyan)" stroke-width="16"/>
+      <circle r="36" fill="#0a0a0a" stroke="#252a2f" stroke-width="7"/>
+      <circle r="22" fill="url(#hub)"/>
+      <path d="M28 -28 L126 -126 L165 -153 L146 -111 L48 -13 Z" fill="url(#blade)"/>
+    </g>
+    <!-- bottom-left -->
+    <g transform="translate(255 745)">
+      <circle r="55" fill="#111" stroke="url(#cyan)" stroke-width="16"/>
+      <circle r="36" fill="#0a0a0a" stroke="#252a2f" stroke-width="7"/>
+      <circle r="22" fill="url(#hub)"/>
+      <path d="M-28 28 L-126 126 L-165 153 L-146 111 L-48 13 Z" fill="url(#blade)"/>
+    </g>
+    <!-- bottom-right -->
+    <g transform="translate(745 745)">
+      <circle r="55" fill="#111" stroke="url(#cyan)" stroke-width="16"/>
+      <circle r="36" fill="#0a0a0a" stroke="#252a2f" stroke-width="7"/>
+      <circle r="22" fill="url(#hub)"/>
+      <path d="M28 28 L126 126 L165 153 L146 111 L48 13 Z" fill="url(#blade)"/>
+    </g>
+  </g>
+
+</svg>
