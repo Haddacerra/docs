@@ -84,8 +84,9 @@ Remote Touch is a sensitive operation on Android and requires several special pe
 2. Go to Settings -> Remote touchscreen to see the status of the remote touchscreen service. follow these steps to install for the first time.
 3. In your Android device open Setting and tap Apps, find Haddacerra Screen app, Tap on the 3 dots on the top right corner of the screen, click Allow restrected setting.
 4. Either click on the shortcut in the Haddacerra screen settings or go directly to Settings -> Features -> Accessibility . click the Haddacerra Screen app, and enable "Use Haddacerra Screen".
-5. In the **Live Video Feed** panel, select **REMOTE TOUCH · ON** once the control channel and phone connection are available.
-6. Click or tap the displayed video to send a tap to the corresponding point on the phone. Drag across the video to send a swipe.
+5. Verify in Haddacerra Screen -> Settings -> Remote touchscreen that Accessibility service is enabled.
+6. In the **Live Video Feed** panel, select **REMOTE TOUCH · ON** once the control channel and phone connection are available.
+7. Click or tap the displayed video to send a tap to the corresponding point on the phone. Drag across the video to send a swipe.
 
 Note: Step 4 will have to be repeated after the app is completely reset. Step 3 is only performed once after installation.
 
