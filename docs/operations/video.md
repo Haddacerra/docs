@@ -2,11 +2,26 @@
 
 The Haddacerra Gateway hardware focuses on low-latency stick interception, telemetry routing, and hardware safety overrides only.
 
-Video streaming can be seamlessly integrated using standard RTSP/MediaMTX pipelines.
+Android captures the phone display and publishes it to MediaMTX over RTSP; the browser receives the stream through WHEP/WebRTC.
 
 ---
 
 ## 1. Architecture & Default Server Provisioning
+
+```text
+Android phone / tablet
+  DJI Fly + Haddacerra Screen
+             |
+             | RTSP publish (authenticated URL)
+             v
+      MediaMTX server
+       /           \
+      /             \
+ WHEP/WebRTC       RTSP clients
+      |
+      v
+Browser portal video panel
+```
 
 When you initiate a UDP connection through the Web Control Portal (`app.haddacerra.com`), the system manages RTSP streaming endpoints for low-latency monitoring.
 
@@ -16,17 +31,13 @@ When you initiate a UDP connection through the Web Control Portal (`app.haddacer
 
 ---
 
-## 2. Android Client Setup (Screen Stream App)
+## 2. Haddacerra Screen Android App
 
-To broadcast your mobile device screen and app feed into the streaming pipeline:
+Haddacerra Screen is the Haddacerra-maintained fork of [ScreenStream](https://github.com/dkrivoruchko/ScreenStream), based on upstream 4.5.0. The Haddacerra build uses the ad-free ScreenStream implementation as its base and retains the existing RTSP Client pipeline. It adds Haddacerra-specific QR link import and the optional remote-touch receiver.
 
-1. **Install App:** Download and install the **Screen Stream** application on your Android control device.
+The Haddacerra Screen RTSP fork was updated to keep the existing RTP SSRC and packetizer sequence across this encoder reconfiguration, update codec parameter sets in-band, and request a fresh keyframe. This avoids changing the RTP SSRC in the middle of an existing RTSP publishing session, which strict receivers such as MediaMTX can reject.
 
-2. **Select Mode:** Open the app and configure the output to **RTSP mode** operating as a **Client**.
-
-3. **Configure URL:** Go into the client settings and paste the RTSP server URL obtained from the Control Portal QR code (or your custom server URL).
-
-4. **Initiate Broadcast:** Press **Start Stream** in the app to begin transmitting over the RTSP link.
+The app is intended to run alongside the normal drone application. It captures and publishes the Android display after the user approves Android's screen-capture prompt; the operator can continue using compatible apps such as DJI Fly normally.
 
 ---
 
@@ -37,3 +48,13 @@ Once the stream is live, you can monitor the video feed using either of the foll
 * **In-Portal Integration:** If using the default server or you entered your custom server URL to the UI, your stream will show on the right side of the UI.
 
 * **Dedicated Browser Tab (Recommended):** For a cleaner and larger view open a separate browser tab pointing directly to the stream URL.
+
+The Live Video Feed panel reports browser-side WebRTC statistics such as:
+
+| **WHEP RTT** | Round-trip time for the selected browser-to-MediaMTX ICE candidate pair. |
+
+| **Jitter** | Variation in incoming video RTP packet arrival timing as reported by the browser. |
+
+| **Packet loss** | Rolling video RTP packet-loss estimate over the latest statistics interval. |
+
+| **Decode FPS** | Video frames decoded per second by the browser. |
